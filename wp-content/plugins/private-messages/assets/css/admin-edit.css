@@ -1,0 +1,10 @@
+/**
+ * Private Messages Admin
+ *
+ * @since 1.10.0
+ */
+
+/* Columns. */
+.fixed .column-recipient {
+	width: 10%;
+}

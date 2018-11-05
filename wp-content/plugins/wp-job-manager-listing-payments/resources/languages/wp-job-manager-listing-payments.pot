@@ -1,0 +1,574 @@
+# Copyright (C) 2017 wp-job-manager-listing-payments
+# This file is distributed under the same license as the wp-job-manager-listing-payments package.
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-job-manager-listing-payments\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: wp-job-manager-listing-payments.php:41
+msgid "Listing Payments for WP Job Manager requires at least PHP %1$s. You are running PHP %2$s. Please upgrade and try again."
+msgstr ""
+
+#: bootstrap/activation.php:115
+msgid "Paid Listing Functionality is Disabled."
+msgstr ""
+
+#: bootstrap/activation.php:115
+msgid "Please deactivate WC Paid Listings Plugin to use Listing Payments for WP Job Manager."
+msgstr ""
+
+#: app/job-manager/class-job-manager-edit.php:56
+msgid "Payment Package"
+msgstr ""
+
+#: app/job-manager/class-job-manager-post-status.php:48
+msgctxt "job_listing"
+msgid "Pending Payment"
+msgstr ""
+
+#: app/job-manager/class-job-manager-post-status.php:54
+msgid "Pending Payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Payment <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/job-manager/class-job-manager-post-status.php:82
+msgid "Pending Payment"
+msgstr ""
+
+#: app/job-manager/class-job-manager-settings.php:64, app/resume-manager/class-resume-manager-settings.php:63
+msgid "Payment Flow"
+msgstr ""
+
+#: app/job-manager/class-job-manager-settings.php:65, app/resume-manager/class-resume-manager-settings.php:64
+msgid "Define when the user should choose a package for submission."
+msgstr ""
+
+#: app/job-manager/class-job-manager-settings.php:68
+msgid "Choose a package after entering details"
+msgstr ""
+
+#: app/job-manager/class-job-manager-settings.php:69
+msgid "Choose a package before entering details"
+msgstr ""
+
+#: app/job-manager/class-job-manager-settings.php:70
+msgid "Payment required before entering details"
+msgstr ""
+
+#: app/job-manager/class-job-manager-settings.php:76, app/resume-manager/class-resume-manager-settings.php:75
+msgid "Payments"
+msgstr ""
+
+#: app/job-manager/class-job-manager-settings.php:85, app/resume-manager/class-resume-manager-settings.php:84
+msgid "Checkout"
+msgstr ""
+
+#: app/job-manager/class-job-manager-settings.php:86, app/resume-manager/class-resume-manager-settings.php:85
+msgid "Enable Simple Checkout"
+msgstr ""
+
+#: app/job-manager/class-job-manager-settings.php:87, app/resume-manager/class-resume-manager-settings.php:86
+msgid "Use simple checkout for free listing packages. This removes all required billing and shipping fields."
+msgstr ""
+
+#: app/job-manager/class-job-manager-settings.php:96, app/resume-manager/class-resume-manager-settings.php:95
+msgid "Switch Package"
+msgstr ""
+
+#: app/job-manager/class-job-manager-settings.php:97, app/resume-manager/class-resume-manager-settings.php:96
+msgid "Allow user to switch listing packages."
+msgstr ""
+
+#: app/job-manager/class-job-manager-settings.php:98, app/resume-manager/class-resume-manager-settings.php:97
+msgid "Allow user to switch to different package when editing listing."
+msgstr ""
+
+#: app/job-manager/class-job-manager-settings.php:107
+msgid "License Key"
+msgstr ""
+
+#: app/job-manager/class-job-manager-settings.php:108
+msgid "Enter the license key you received with your purchase receipt to continue receiving plugin updates."
+msgstr ""
+
+#: app/job-manager/class-job-manager-submit-form.php:143, app/resume-manager/class-resume-manager-submit-form.php:80
+msgid "Choose a package &rarr;"
+msgstr ""
+
+#: app/job-manager/class-job-manager-submit-form.php:192, app/job-manager/class-job-manager-submit-form.php:268, app/resume-manager/class-resume-manager-submit-form.php:121, app/resume-manager/class-resume-manager-submit-form.php:190
+msgid "Choose a package"
+msgstr ""
+
+#: app/job-manager/class-job-manager-submit-form.php:260, app/resume-manager/class-resume-manager-submit-form.php:181
+msgid "Submit &rarr;"
+msgstr ""
+
+#: app/job-manager/class-job-manager-submit-form.php:260, app/resume-manager/class-resume-manager-submit-form.php:181
+msgid "Listing Details &rarr;"
+msgstr ""
+
+#: app/job-manager/class-job-manager-submit-form.php:296, app/job-manager/class-job-manager-submit-form.php:299, app/job-manager/class-job-manager-submit-form.php:305, app/resume-manager/class-resume-manager-submit-form.php:218, app/resume-manager/class-resume-manager-submit-form.php:221, app/resume-manager/class-resume-manager-submit-form.php:227
+msgid "Invalid Package"
+msgstr ""
+
+#: app/job-manager/class-job-manager-submit-form.php:311, app/resume-manager/class-resume-manager-submit-form.php:233
+msgid "You already have this subscription."
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-cart.php:99, app/job-manager/class-job-manager-wc-orders.php:195, app/job-manager/class-job-manager-wc-orders.php:230
+msgid "Listing"
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-orders.php:73, app/job-manager/class-job-manager-wc-orders.php:112, app/resume-manager/class-resume-manager-wc-orders.php:61, app/resume-manager/class-resume-manager-wc-orders.php:91
+msgid "View Dashboard"
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-orders.php:76
+msgid "Submit Listing"
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-orders.php:94, app/resume-manager/class-resume-manager-wc-orders.php:73
+msgid "%s has been submitted successfully and will be visible once approved."
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-orders.php:99, app/resume-manager/class-resume-manager-wc-orders.php:78
+msgid "%s has been submitted successfully and will be visible once payment has been confirmed."
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-orders.php:103, app/resume-manager/class-resume-manager-wc-orders.php:82
+msgid "%s has been submitted successfully."
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-orders.php:110, app/resume-manager/class-resume-manager-wc-orders.php:89
+msgid "View Listing"
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-product-setup.php:46, app/user-packages/class-user-packages-admin-edit-package.php:86, app/user-packages/class-user-packages-admin-list-packages.php:96
+msgid "Listing Payment Package"
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-product-setup.php:99
+msgid "Listing limit"
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-product-setup.php:100
+msgid "The number of listings a user can post with this package."
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-product-setup.php:102, app/resume-manager/class-resume-manager-wc-product-setup.php:105, app/user-packages/class-user-packages-admin-edit-package.php:99, app/user-packages/class-user-packages-admin-list-packages.php:93, resources/templates/my-packages.php:53, resources/templates/form-fields/payment-package-field.php:32, resources/templates/form-fields/resume-payment-package-field.php:32
+msgid "Unlimited"
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-product-setup.php:113
+msgid "Listing duration"
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-product-setup.php:114
+msgid "The number of days that the listing will be active."
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-product-setup.php:127, app/resume-manager/class-resume-manager-wc-product-setup.php:130
+msgid "Purchase Limit"
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-product-setup.php:128, app/resume-manager/class-resume-manager-wc-product-setup.php:131
+msgid "Number of times a user can purchase this package. Zero for no limit."
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-product-setup.php:141, app/resume-manager/class-resume-manager-wc-product-setup.php:144, app/user-packages/class-user-packages-admin-edit-package.php:122
+msgid "Feature Listings?"
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-product-setup.php:142
+msgid "Feature this listing - it will be styled differently and sticky."
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-subs-product-setup.php:62
+msgid "Listing Payment Package Subscription"
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-subs-product-setup.php:122, app/resume-manager/class-resume-manager-wc-subs-product-setup.php:123
+msgid "Subscription Type"
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-subs-product-setup.php:123, app/resume-manager/class-resume-manager-wc-subs-product-setup.php:124
+msgid "Choose how subscriptions affect this package"
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-subs-product-setup.php:127, app/resume-manager/class-resume-manager-wc-subs-product-setup.php:128
+msgid "Link the subscription to the package (renew listing limit every subscription term)"
+msgstr ""
+
+#: app/job-manager/class-job-manager-wc-subs-product-setup.php:128, app/resume-manager/class-resume-manager-wc-subs-product-setup.php:129
+msgid "Link the subscription to posted listings (renew posted listings every subscription term)"
+msgstr ""
+
+#: app/job-manager/class-job-manager-writepanels.php:44, app/resume-manager/class-resume-manager-writepanels.php:44
+msgid "Listing Payment"
+msgstr ""
+
+#: app/job-manager/class-job-manager-writepanels.php:103, app/resume-manager/class-resume-manager-writepanels.php:102
+msgid "Listing Package:"
+msgstr ""
+
+#: app/job-manager/class-job-manager-writepanels.php:108, app/resume-manager/class-resume-manager-writepanels.php:107
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: app/job-manager/class-job-manager-writepanels.php:121, app/resume-manager/class-resume-manager-writepanels.php:120
+msgid "Create a user package"
+msgstr ""
+
+#: app/job-manager/class-job-manager-writepanels.php:124, app/resume-manager/class-resume-manager-writepanels.php:123
+msgid "Package Product:"
+msgstr ""
+
+#: app/job-manager/class-wc-product-job-package.php:93, app/resume-manager/class-wc-product-resume-package.php:90
+msgid "Add to cart"
+msgstr ""
+
+#: app/job-manager/class-wc-product-job-package.php:93, app/resume-manager/class-wc-product-resume-package.php:90
+msgid "Read More"
+msgstr ""
+
+#: app/resume-manager/class-resume-manager-edit.php:57
+msgid "Package"
+msgstr ""
+
+#: app/resume-manager/class-resume-manager-settings.php:56
+msgid "Submitting listings requires an account"
+msgstr ""
+
+#: app/resume-manager/class-resume-manager-settings.php:56
+msgid "If disabled, non-logged in users will be able to submit listings without creating an account. Please note that this will prevent non-registered users from being able to edit their listings at a later date."
+msgstr ""
+
+#: app/resume-manager/class-resume-manager-settings.php:56
+msgid "User is required to have an account to use Paid Listings feature."
+msgstr ""
+
+#: app/resume-manager/class-resume-manager-settings.php:67
+msgid "Choose a package after entering resume details"
+msgstr ""
+
+#: app/resume-manager/class-resume-manager-settings.php:68
+msgid "Choose a package before entering resume details"
+msgstr ""
+
+#: app/resume-manager/class-resume-manager-settings.php:69
+msgid "Payment required before entering job details"
+msgstr ""
+
+#: app/resume-manager/class-resume-manager-wc-cart.php:95
+msgid "Resume"
+msgstr ""
+
+#: app/resume-manager/class-resume-manager-wc-orders.php:64
+msgid "Submit Your Resume"
+msgstr ""
+
+#: app/resume-manager/class-resume-manager-wc-orders.php:96
+msgid "Apply for \"%s\""
+msgstr ""
+
+#: app/resume-manager/class-resume-manager-wc-product-setup.php:48, app/user-packages/class-user-packages-admin-edit-package.php:88, app/user-packages/class-user-packages-admin-list-packages.php:96
+msgid "Resume Payment Package"
+msgstr ""
+
+#: app/resume-manager/class-resume-manager-wc-product-setup.php:102
+msgid "Resume posting limit"
+msgstr ""
+
+#: app/resume-manager/class-resume-manager-wc-product-setup.php:103
+msgid "The number of resumes a user can post with this package."
+msgstr ""
+
+#: app/resume-manager/class-resume-manager-wc-product-setup.php:116
+msgid "Resume listing duration"
+msgstr ""
+
+#: app/resume-manager/class-resume-manager-wc-product-setup.php:117
+msgid "The number of days that the resume will be active."
+msgstr ""
+
+#: app/resume-manager/class-resume-manager-wc-product-setup.php:145
+msgid "Feature this resume - it will be styled differently and sticky."
+msgstr ""
+
+#: app/resume-manager/class-resume-manager-wc-subs-product-setup.php:62
+msgid "Resume Payment Package Subscription"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-edit-package.php:82
+msgid "Package Type"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-edit-package.php:95
+msgid "Listing Limit"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-edit-package.php:96
+msgid "How many listings should this package allow the user to post?"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-edit-package.php:104
+msgid "Listing Count"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-edit-package.php:105
+msgid "How many listings has the user already posted with this package?"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-edit-package.php:113, resources/templates/my-packages.php:42
+msgid "Listing Duration"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-edit-package.php:114
+msgid "How many days should listings posted with this package be active?"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-edit-package.php:117
+msgid "Default"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-edit-package.php:130, app/user-packages/class-user-packages-admin-list-packages.php:115
+msgid "User"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-edit-package.php:133
+msgid "Guest"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-edit-package.php:140, app/user-packages/class-user-packages-admin-list-packages.php:117
+msgid "Product"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-edit-package.php:141
+msgid "Optionally link this package to a product."
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-edit-package.php:144
+msgid "Choose a product&hellip;"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-edit-package.php:168, app/user-packages/class-user-packages-admin-list-packages.php:121
+msgid "Order ID"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-edit-package.php:169
+msgid "Optionally link this package to an order."
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-edit-package.php:172
+msgid "N/A"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-edit-package.php:178
+msgid "Save Package"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-edit-package.php:240
+msgid "Package successfully saved"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-list-packages.php:74, app/user-packages/class-user-packages-admin-list-packages.php:81, app/user-packages/class-user-packages-admin-list-packages.php:84
+msgid "n/a"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-list-packages.php:89
+msgid "%d Days"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-list-packages.php:92
+msgid "%s Posted"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-list-packages.php:99
+msgid "Edit"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-list-packages.php:100, app/user-packages/class-user-packages-admin-list-packages.php:155
+msgid "Delete"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-list-packages.php:116
+msgid "Type"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-list-packages.php:118
+msgid "Limit"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-list-packages.php:119
+msgid "Duration"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-list-packages.php:120, app/user-packages/class-user-packages-admin-list-packages.php:120, resources/templates/my-packages.php:44
+msgid "Featured?"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-list-packages.php:122
+msgid "ID"
+msgstr ""
+
+#: app/user-packages/class-user-packages-admin-list-packages.php:123
+msgid "Actions"
+msgstr ""
+
+#: app/user-packages/class-user-packages.php:63, app/user-packages/class-user-packages.php:64, app/user-packages/class-user-packages.php:147
+msgid "Listing Packages"
+msgstr ""
+
+#: app/user-packages/class-user-packages.php:100
+msgid "Package successfully deleted"
+msgstr ""
+
+#: app/user-packages/class-user-packages.php:116
+msgid "%s Package successfully deleted"
+msgid_plural "%s Packages successfully deleted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/user-packages/class-user-packages.php:127, app/user-packages/class-user-packages.php:147
+msgid "Add User Package"
+msgstr ""
+
+#: app/user-packages/class-user-packages.php:129
+msgid "Edit User Package"
+msgstr ""
+
+#: resources/templates/my-packages.php:23
+msgid "My Packages"
+msgstr ""
+
+#: resources/templates/my-packages.php:26
+msgid "My Listing Packages"
+msgstr ""
+
+#: resources/templates/my-packages.php:28
+msgid "My Resume Packages"
+msgstr ""
+
+#: resources/templates/my-packages.php:39
+msgid "Package Name"
+msgstr ""
+
+#: resources/templates/my-packages.php:40
+msgid "Remaining"
+msgstr ""
+
+#: resources/templates/my-packages.php:57
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: resources/templates/my-packages.php:60
+msgid "Yes"
+msgstr ""
+
+#: resources/templates/my-packages.php:60
+msgid "No"
+msgstr ""
+
+#: resources/templates/package-selection.php:25, resources/templates/resume-package-selection.php:25
+msgid "Your Packages:"
+msgstr ""
+
+#: resources/templates/package-selection.php:34
+msgid "%s job posted out of %d"
+msgid_plural "%s jobs posted out of %d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: resources/templates/package-selection.php:36
+msgid "%s job posted"
+msgid_plural "%s jobs posted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: resources/templates/package-selection.php:40, resources/templates/package-selection.php:67, resources/templates/resume-package-selection.php:40, resources/templates/resume-package-selection.php:65
+msgid "listed for %s day"
+msgid_plural "listed for %s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: resources/templates/package-selection.php:50, resources/templates/resume-package-selection.php:50
+msgid "Purchase Package:"
+msgstr ""
+
+#: resources/templates/package-selection.php:66
+msgid "%s for %s job"
+msgid_plural "%s for %s jobs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: resources/templates/package-selection.php:66, resources/templates/resume-package-selection.php:62
+msgid "Free"
+msgstr ""
+
+#: resources/templates/package-selection.php:66, resources/templates/resume-package-selection.php:62
+msgid "unlimited"
+msgstr ""
+
+#: resources/templates/package-selection.php:79, resources/templates/resume-package-selection.php:78
+msgid "No packages found"
+msgstr ""
+
+#: resources/templates/resume-package-selection.php:34
+msgid "%s resume posted out of %d"
+msgid_plural "%s resumes posted out of %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: resources/templates/resume-package-selection.php:36
+msgid "%s resume posted"
+msgid_plural "%s resumes posted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: resources/templates/resume-package-selection.php:62
+msgid "%s to post %d resume"
+msgid_plural "%s to post %s resumes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: resources/templates/form-fields/payment-package-field.php:25, resources/templates/form-fields/resume-payment-package-field.php:25
+msgid "(Current)"
+msgstr ""
+
+#: resources/templates/form-fields/payment-package-field.php:32, resources/templates/form-fields/resume-payment-package-field.php:32
+msgid "%s listing remaining in this package."
+msgid_plural "%s listings remaining in this package."
+msgstr[0] ""
+msgstr[1] ""
+
+#: resources/templates/form-fields/payment-package-field.php:39, resources/templates/form-fields/resume-payment-package-field.php:39
+msgid "Listing will expire on %s"
+msgstr ""
+
+#: resources/templates/form-fields/payment-package-field.php:41, resources/templates/form-fields/resume-payment-package-field.php:41
+msgid "Listing will never expire"
+msgstr ""
+
+#: resources/templates/form-fields/payment-package-field.php:46, resources/templates/form-fields/resume-payment-package-field.php:46
+msgid "and will be featured."
+msgstr ""
+
+#: resources/templates/form-fields/payment-package-field.php:48, resources/templates/form-fields/resume-payment-package-field.php:48
+msgid "and will not be featured."
+msgstr ""
+
+#. translators: %1$s: duration string %2%s featured string.
+#: resources/templates/form-fields/payment-package-field.php:52, resources/templates/form-fields/resume-payment-package-field.php:52
+msgid "%1$s %2$s"
+msgstr ""

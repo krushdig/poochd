@@ -1,0 +1,82 @@
+2018-10-10T14:26:03+00:00 INFO Subscription Request Parameters: Array
+(
+    [method] => POST
+    [uri] => https://api-3t.paypal.com/nvp
+    [user-agent] => WooCommerce-Subscriptions-PayPal/2.2.16 (WooCommerce/3.4.4; WordPress/4.9.8)
+    [headers] => Array
+        (
+        )
+
+    [body] => Array
+(
+    [USER] => ***********************
+    [PWD] => ****************
+    [SIGNATURE] => ********************************************************
+    [VERSION] => 124
+    [METHOD] => SetExpressCheckout
+    [L_BILLINGTYPE0] => MerchantInitiatedBillingSingleAgreement
+    [L_BILLINGAGREEMENTDESCRIPTION0] => Orders with Poochd
+    [RETURNURL] => https://poochd.com/wc-api/wcs_paypal/?action=reference_transaction_account_check
+    [CANCELURL] => https://poochd.com/wc-api/wcs_paypal/?action=reference_transaction_account_check
+    [BRANDNAME] => Poochd
+    [LANDINGPAGE] => Login
+    [NOSHIPPING] => 1
+    [MAXAMT] => 0.00
+)
+
+    [duration] => 1.57941s
+)
+
+2018-10-10T14:26:03+00:00 INFO Subscription Request Response: Array
+(
+    [code] => 200
+    [message] => OK
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Wed, 10 Oct 2018 13:26:02 GMT
+                    [server] => Apache
+                    [x-slr-retry-api] => SetExpressCheckout
+                    [x-paypal-operation-name] => SetExpressCheckout
+                    [x-paypal-api-rc] => 11452
+                    [cache-control] => Array
+                        (
+                            [0] => max-age=0, no-cache, no-store, must-revalidate
+                            [1] => max-age=0, no-cache, no-store, must-revalidate
+                        )
+
+                    [pragma] => Array
+                        (
+                            [0] => no-cache
+                            [1] => no-cache
+                        )
+
+                    [paypal-debug-id] => 324f6d088dd38
+                    [set-cookie] => Array
+                        (
+                            [0] => X-PP-SILOVER=name%3DLIVE5.APIT.1%26silo_version%3D880%26app%3Dappdispatcher_apit%26TIME%3D3942497627%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Wed, 10 Oct 2018 13:56:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                            [1] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                        )
+
+                    [content-length] => 293
+                    [content-type] => text/plain; charset=utf-8
+                )
+
+        )
+
+    [body] => Array
+(
+    [TIMESTAMP] => 2018-10-10T13:26:03Z
+    [CORRELATIONID] => 324f6d088dd38
+    [ACK] => Failure
+    [VERSION] => 124
+    [BUILD] => 49581750
+    [L_ERRORCODE0] => 11452
+    [L_SHORTMESSAGE0] => Merchant not enabled for reference transactions
+    [L_LONGMESSAGE0] => Merchant not enabled for reference transactions
+    [L_SEVERITYCODE0] => Error
+)
+
+)
+

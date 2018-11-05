@@ -1,0 +1,15 @@
+.pm-form--filters {
+	@include clearfix;
+	display: flex;
+	align-items: baseline;
+	margin: 0 0 1em;
+
+	.pm-form__row {
+		margin: 0 1em 0 0;
+		align-self: flex-end;
+	}
+
+	input[type="submit"] {
+		padding: 12px 20px;
+	}
+}

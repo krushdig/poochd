@@ -1,0 +1,104 @@
+.job_listing_packages,
+.resume_packages{
+	border:5px solid #eee;
+	padding:0;
+}
+
+ul.job_packages,
+ul.resume_packages{
+	list-style:none outside;
+	margin:0;
+	padding:0;
+}
+
+ul.job_packages li,
+ul.resume_packages li{
+	border-bottom:1px dotted #eee;
+	list-style:none outside;
+	margin:0;
+	padding:1em;
+}
+
+ul.job_packages li label,
+ul.resume_packages li label{
+	font-weight:700;
+	cursor:pointer;
+}
+
+ul.job_packages li:last-child,
+ul.resume_packages li:last-child{
+	border-bottom:0;
+}
+
+li.user-job-package,
+li.user-resume-package{
+	background:#fefee5;
+}
+
+ul.job_packages .package-section,
+ul.resume_packages .package-section{
+	font-weight:700;
+}
+
+ul.job_packages p:last-child,
+ul.resume_packages p:last-child{
+	margin-bottom:0;
+}
+
+.entry-content .job_listing_packages_title,
+.entry-content .resume_packages_title,
+.job_listing_packages_title,
+.resume_packages_title {
+	vertical-align:middle;
+	position:relative;
+	background:#eee;
+	padding:.5em 1em;
+}
+
+.entry-content .job_listing_packages_title h2,
+.entry-content .resume_packages_title h2,
+.job_listing_packages_title h2,
+.resume_packages_title h2 {
+	clear:none;
+	margin:0;
+}
+
+.entry-content .job_listing_packages_title .button,
+.entry-content .resume_packages_title .button,
+.job_listing_packages_title .button,
+.resume_packages_title .button {
+	float:right;
+	margin-left:.25em;
+}
+
+/* Edit Listing - Switch Package */
+.fieldset-package .job-packages-field,
+.fieldset-package .resume-packages-field {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.fieldset-package .job-package-field,
+.fieldset-package .resume-package-field {
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+
+.fieldset-package .job-package-field:last-child,
+.fieldset-package .resume-package-field:last-child {
+	margin: 0;
+	padding: 0;
+}
+
+.fieldset-package .job-packages-field label,
+.fieldset-package .resume-packages-field label {
+	font-weight: bold;
+	display: inline;
+	float: none;
+}
+
+.fieldset-package .job-packages-field p,
+.fieldset-package .resume-packages-field p {
+	margin-bottom: 0;
+}
